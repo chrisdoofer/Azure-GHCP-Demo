@@ -1,50 +1,10 @@
 # Azure Service Talk Track Development Prompt Template
 
-**Purpose**: This prompt template generates comprehensive, customer-ready talk tracks for any Azure service. It captures the proven structure that successfully communicates technical capabilities, business value, and architectural integration.
-
-**Key Feature**: This template leverages the Azure Learn MCP server to automatically fetch authoritative documentation, so you only need to provide the GitHub demo repository — the AI handles the rest.
+**This is the prompt to submit to your AI assistant.** For usage guidance and customization examples, see [README.md](README.md).
 
 ---
 
-## Prerequisites
-
-⚠️ **IMPORTANT**: Your coding environment must have the **Azure Learn MCP server** installed and available. This allows the AI assistant to:
-- Automatically fetch official Azure service documentation from Microsoft Learn
-- Discover best practices and reference architectures
-- Find integration patterns and examples
-- Stay current with the latest Azure features and capabilities
-
-If you don't have this installed, ask your system administrator or refer to the Azure MCP server documentation.
-
----
-
-## Instructions for Using This Template
-
-### Step 1: Prepare Your Input
-You only need to provide:
-- **Azure Service Name**: (e.g., "Azure API Management", "Azure Cosmos DB")
-- **GitHub Repository URL**: A link to a demo, reference architecture, or quickstart template (e.g., https://github.com/username/repo)
-- **Audience Profile**: Brief description of who will see this talk track (e.g., "enterprise architects" or "application developers")
-- **Duration**: Estimated presentation length (e.g., "60 minutes")
-
-### Step 2: Submit to Your AI Assistant
-Copy the simplified prompt below and provide it to your AI assistant. The AI will:
-- ✅ Automatically fetch the README from your GitHub repo
-- ✅ Query Azure Learn documentation via MCP server for official service information
-- ✅ Discover capabilities, pricing, integrations, and best practices
-- ✅ Generate a complete, comprehensive talk track
-
-No need to manually gather documentation links — the AI does this automatically!
-
-### Step 3: Iterate and Refine
-- Request expansions on specific sections
-- Ask for additions (e.g., competitive comparisons, cost models)
-- Customize talking points for your specific customer
-- Request industry-specific or audience-specific variations
-
----
-
-## Simplified Reusable Prompt Template
+## The Prompt Template
 
 ```
 I need help developing a comprehensive customer talk track and demonstration script 
@@ -274,100 +234,12 @@ After generating the talk track, please:
 
 ---
 
-## How to Use This Template: Step-by-Step
+## How to Use This Prompt
 
-### Minimal Input Required
+1. Fill in the bracketed placeholders `[LIKE_THIS]` with your specific Azure service, repository, audience, and duration
+2. Copy the entire **The Prompt Template** section (between the triple backticks)
+3. Submit it to your AI assistant
+4. The AI will automatically query the MCP server and generate your talk track
+5. Request specific customizations and iterations based on your needs
 
-You now only need to provide:
-
-1. **Service Name**: Azure API Management
-2. **GitHub Repo**: https://github.com/user/azure-apim-demo
-3. **Audience**: Enterprise integration architects
-4. **Duration**: 60 minutes
-
-That's it! Submit this to the AI with the prompt above, and the AI will:
-- ✅ Automatically fetch the repo README
-- ✅ Query official AzureLearn documentation via MCP
-- ✅ Research pricing and best practices
-- ✅ Generate a complete talk track
-
-### For Different Audiences:
-- **C-Level Executives**: Emphasize ROI, risk reduction, competitive advantage
-- **Technical Team**: Dive deeper into capabilities, integration, automation
-- **Security Team**: Focus on compliance, threat detection, governance
-- **Finance/Procurement**: Emphasize TCO, licensing models, cost optimization
-
-### For Different Contexts:
-- **Greenfield Deployment**: Focus on architecture decisions and best practices
-- **Migration Scenario**: Emphasize transition strategies and co-existence with legacy systems
-- **Pilot/POC**: Focus on quick wins and measurable outcomes
-- **Enterprise-Scale**: Emphasize governance, multi-region, multi-subscription management
-
-### For Different Azure Services:
-Simply replace the bracketed placeholders with service-specific information:
-
-**Example 1 - Azure Kubernetes Service (AKS)**:
-- [AZURE_SERVICE_NAME] → "Azure Kubernetes Service"
-- [PRIMARY_USE_CASE] → "Containerized workload orchestration"
-- [ARCHITECTURE_CONTEXT] → "Azure Landing Zone container strategy"
-
-**Example 2 - Azure Cosmos DB**:
-- [AZURE_SERVICE_NAME] → "Azure Cosmos DB"
-- [PRIMARY_USE_CASE] → "Global-scale NoSQL databases"
-- [ARCHITECTURE_CONTEXT] → "Multi-region, multi-tenant application architecture"
-
-**Example 3 - Azure API Management**:
-- [AZURE_SERVICE_NAME] → "Azure API Management"
-- [PRIMARY_USE_CASE] → "API gateway and lifecycle management"
-- [ARCHITECTURE_CONTEXT] → "API-first microservices architecture"
-
----
-
-## Sample Services This Template Works Well For:
-
-✅ **Infrastructure Services**: Virtual Machines, App Service, Container Registry
-✅ **Networking Services**: Azure Firewall, Application Gateway, Load Balancer, Virtual WAN
-✅ **Database Services**: Cosmos DB, SQL Database, PostgreSQL, MySQL
-✅ **AI/ML Services**: Cognitive Services, Machine Learning, Copilot stack
-✅ **Security Services**: Microsoft Defender for Cloud, Sentinel, Key Vault
-✅ **Integration Services**: API Management, Logic Apps, Service Bus
-✅ **DevOps Services**: DevOps, GitHub Actions, Container Registry
-
----
-
-## Tips for Success
-
-1. **Start with Documentation**: Review official Azure service documentation before creating the talk track
-2. **Use Real Examples**: Include actual use cases from your customers or industry
-3. **Test the Demo**: Run through the entire demo before presenting to catch issues
-4. **Customize for Your Audience**: Adjust sections based on customer's specific needs
-5. **Prepare Alternatives**: Have backup explanation or screenshots if demo fails
-6. **Time Each Section**: Practice delivering within allocated timeframes
-7. **Gather Feedback**: After each presentation, note what resonated and what fell flat
-8. **Keep It Living**: Update the talk track quarterly with new features, customer feedback, and market changes
-
----
-
-## Version Control & Iteration
-
-Consider storing your talk track in version control (Git) with notes on:
-- Date created
-- Last updated
-- Feedback from presentations (what worked, what didn't)
-- Demo run-throughs and any issues encountered
-- Customer objections and how they were addressed
-- Updates for new Azure feature releases
-
-This makes it a true asset that improves with each use.
-
----
-
-## Next Steps
-
-1. **Customize this template** with information about your chosen Azure service
-2. **Submit the completed prompt** to your AI assistant
-3. **Request specific expansions** on sections most relevant to your audience
-4. **Iterate and refine** based on feedback from early presentations
-5. **Build a library** of talk tracks for different Azure services with this reusable structure
-
-Good luck with your presentations! 🚀
+For detailed guidance on customization, audience-specific variations, context-specific adjustments, and examples for different Azure services, see [README.md](README.md).
